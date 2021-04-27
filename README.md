@@ -30,7 +30,7 @@ INSTALLATION
    Drupal module.
    
 The configuration page is at /admin/config/custom_rest_api,
-  where you can configure the Basic site details as well as add or update API key.
+  where you can configure add or update API key.
 
 CONFIGURATION
 -------------
