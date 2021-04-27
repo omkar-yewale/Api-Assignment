@@ -50,6 +50,7 @@ CONFIGURATION
 ---------------
 
  To add a node in Assignmnet content type need to eneble some modules.
+ 
     1. Rest WebService
     2. RestUI
  
@@ -59,6 +60,7 @@ and update configuration with GET,PUSH method from the content.
 After updating configuration Dowmload the Postman Application and Create new connection.
 In that Connection use POST method and site URL with parameter. Ex (http://drupal-assginment.docker.localhost:8007/node?_format=json)
 And body Section add your json data for creating new node.
+
 Ex: {
     "title":[{"value":"new testing Content"}],
     "type":[{"target_id":"assignment"}],
