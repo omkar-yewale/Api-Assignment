@@ -1,0 +1,22 @@
+restapikey.content:
+  path: '/datas/{apikey}/{node}'
+  defaults:
+    _controller: '\Drupal\custom_rest_api\Controller\RestApiKeyController::content'
+  options:
+      parameters:
+        apikey:
+          type: String
+        node:
+          type: entity:node
+  requirements:
+    _permission: 'access content'
+
+custom_rest_api.config:
+  path: '/admin/config/custom_rest_api'
+  defaults:
+    _form: '\Drupal\custom_rest_api\Form\ApiKeyForm'
+    _title: 'Add API Key'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: TRUE

@@ -1,0 +1,6 @@
+custom_rest_api.config:
+  title: 'Set API Key'
+  route_name: custom_rest_api.config
+  description: 'Set API Key'
+  parent: system.admin_config_system
+  weight: 99
