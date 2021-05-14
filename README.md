@@ -3,12 +3,12 @@
 CONTENTS OF THIS FILE
 ---------------------
 
- * [Introduction](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#introduction)
- * [Requirements](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#requirements)
- * [Installation](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#installation)
- * [Configuration](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#configuration)
- * [Other Details](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#other-details)
- * [Resources](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#resources)
+ * [Introduction](https://github.com/omkar-yewale/Api-Assignment#introduction)
+ * [Requirements](https://github.com/omkar-yewale/Api-Assignment#requirements)
+ * [Installation](https://github.com/omkar-yewale/Api-Assignment#installation)
+ * [Configuration](https://github.com/omkar-yewale/Api-Assignment#configuration)
+ * [Other Details](https://github.com/omkar-yewale/Api-Assignment#other-details)
+ * [Resources](https://github.com/omkar-yewale/Api-Assignment#resources)
  
  INTRODUCTION
 ------------
