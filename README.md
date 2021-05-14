@@ -3,12 +3,12 @@
 CONTENTS OF THIS FILE
 ---------------------
 
- * Introduction
- * Requirements
- * Installation
- * Configuration
- * Other Details
- * RESOURCES
+ * [Introduction](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#introduction)
+ * [Requirements](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#requirements)
+ * [Installation](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#installation)
+ * [Configuration](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#configuration)
+ * [Other Details](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#other-details)
+ * [Resources](https://github.com/omkar-yewale/Sample-code/blob/main/README.md#resources)
  
  INTRODUCTION
 ------------
