@@ -26,7 +26,7 @@ This module requires no modules outside of the Drupal core.
 INSTALLATION
 ------------
 
- * Install the Site Config API module as you would normally install a contributed
+ * Install the Custom Rest API module as you would normally install a contributed
    Drupal module.
    
 The configuration page is at /admin/config/custom_rest_api,
@@ -40,28 +40,34 @@ CONFIGURATION
     3. Add APK key and update the configuration.
     
  * After updating configuration visit this URL : /data/dummyapikey/30
+ 
  Here,
+ 
  API key is: dummyapikey
+ 
  Node ID is: 30
  
- if the node id and api key both are valid you will get the result.
+ if the node id and API key both are valid you will get the result.
  
  Other Details
 ---------------
+Other Task is add node using psotman.
 
  To add a node in Assignmnet content type need to eneble some modules.
  
     1. Rest WebService
     2. RestUI
  
-After instaaling both the module go to the > /admin/config/services/rest
-and update configuration with GET,PUSH method from the content.
+After installing both the module go to the > /admin/config/services/rest
+and update configuration with GET,PUSH method from the content. 
     
-After updating configuration Dowmload the Postman Application and Create new connection.
+After updating configuration Download the [Postman Application](https://www.postman.com/downloads/) and Create new connection.
 In that Connection use POST method and site URL with parameter. Ex (http://drupal-assginment.docker.localhost:8007/node?_format=json)
 And body Section add your json data for creating new node.
 
-Ex: {
+Ex: 
+
+{
     "title":[{"value":"new testing Content"}],
     "type":[{"target_id":"assignment"}],
     "body":[{"value":"hello hello testing"}],
