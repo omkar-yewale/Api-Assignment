@@ -59,19 +59,26 @@ Other Task is add node using psotman.
     2. RestUI
  
 After installing both the module go to the > /admin/config/services/rest
+
 and update configuration with GET,PUSH method from the content. 
     
 After updating configuration Download the [Postman Application](https://www.postman.com/downloads/) and Create new connection.
+
 In that Connection use POST method and site URL with parameter. Ex (http://drupal-assginment.docker.localhost:8007/node?_format=json)
 And body Section add your json data for creating new node.
 
 Ex: 
 
 {
+
     "title":[{"value":"new testing Content"}],
+    
     "type":[{"target_id":"assignment"}],
+    
     "body":[{"value":"hello hello testing"}],
+    
     "field_category":[{"target_id": "5"}]
+    
 }
 
  
